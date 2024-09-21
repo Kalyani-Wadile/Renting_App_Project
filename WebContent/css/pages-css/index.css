@@ -1,0 +1,27 @@
+@CHARSET "ISO-8859-1";
+
+.background-image {
+    background-image: url('/Renting_Project/images/logo.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add shadow */
+}
+
+.login-form {
+    background-color: #EEF7FF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow */
+}
+
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+
+.b {
+    width: 100%; /* Ensure the button takes up the full width */
+}
